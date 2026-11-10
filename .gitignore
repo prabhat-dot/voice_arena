@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Notebook temporary files
+.ipynb_checkpoints/
+.colab/
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*token*.txt
+
+# Raw audio, annotations, local input bundles
+pilot_data/
+voice_arena_data/
+recordings/
+audio/
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.rttm
+*.uem
+
+# Generated pilot outputs
+voice_arena_results/
+results/
+outputs/
+Voice_Arena_Pilot_Results.zip
+results.csv
+results.json
+manifest.csv
+
+# Large model files / cache
+.cache/
+models/
+checkpoints/
+*.ckpt
+*.safetensors
+*.pt
+*.pth
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

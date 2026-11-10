@@ -1,0 +1,13 @@
+# Core diarization and evaluation dependencies.
+# The completed Colab pilot recorded pyannote.audio==4.0.7 and
+# pyannote.metrics==4.2.0; pin them here for closer reproduction.
+# GPU-compatible PyTorch is installed according to the Colab/runtime environment.
+pyannote.audio==4.0.7
+pyannote.metrics==4.2.0
+soundfile>=0.12
+pandas>=2.0
+matplotlib>=3.7
+huggingface_hub>=0.23
+
+# Used for displaying and editing notebooks outside Colab.
+notebook>=7.0
